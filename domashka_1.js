@@ -96,4 +96,12 @@ console.log(false && true || true)  // true
 false && (false || true);  // false
 // В скобках приоритет выше, поэтому сначала выполняется действие в скобка. (false || true) --> true 
 // Затем операция логическое && находит первое ложное false && true --> false
-console.log(false && (false || true))  // false
+console.log(false && (false || true));  // false
+
+(+null == false) < 1 ** 5;  // false
+// Действия исходя из приоритетов:
+// преобразование +null --> 0; 
+// 1 ** 5 = 1; 
+// (0 == false) --> преобразование false --> 0  затем сравнение 0 == 0 --> true ;
+// true < 1  преобразование true --> 1  потом сравнение  1 < 1 --> false
+console.log((+null == false) < 1 ** 5)  //false
