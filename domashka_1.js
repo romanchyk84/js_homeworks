@@ -105,3 +105,16 @@ console.log(false && (false || true));  // false
 // (0 == false) --> преобразование false --> 0  затем сравнение 0 == 0 --> true ;
 // true < 1  преобразование true --> 1  потом сравнение  1 < 1 --> false
 console.log((+null == false) < 1 ** 5)  //false
+
+
+
+let temperature = 25.0001;
+
+let temperatureResult;
+
+if (temperature <= 25) temperatureResult = "Холодно";
+
+else temperatureResult = "Тепло";
+
+console.log(temperature);
+console.log(temperatureResult);
