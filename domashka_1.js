@@ -6,8 +6,9 @@
 то есть число преобразовывается в строку и получаем "number3". Затем второй оператор сложения также выполняет
 конкатенацию. Number 3 преобразовывается в строку "3". Получаем 'number33', тип данных string. */
 
-console.log('number' + 3 + 3, typeof ('number' + 3 + 3))
+console.log('number' + 3 + 3, typeof ('number' + 3 + 3))  // number33 string
 
-null + 3  // будет 3, null преобразовывает я в 0 
-console.log(null + 3, typeof (null + 3))
+
+null + 3  // будет 3, null преобразовывается в 0 и выполняется операция сложения
+console.log(null + 3, typeof (null + 3))  // 3 number
 
