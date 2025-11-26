@@ -8,3 +8,6 @@
 
 console.log('number' + 3 + 3, typeof ('number' + 3 + 3))
 
+null + 3  // будет 3, null преобразовывает я в 0 
+console.log(null + 3, typeof (null + 3))
+
