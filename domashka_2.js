@@ -8,13 +8,13 @@ for (let i = 0; i < y; i++)
 return result
 }
 
-console.log(pow(7, 2))
-p();
-console.log(pow(7, 3))
-p();
-console.log(pow(2, 10))
-p();
+console.log(pow(7, 2));
+razdel();
+console.log(pow(7, 3));
+razdel();
+console.log(pow(2, 10));
+razdel();
 
-function p() {
+function razdel() {
     console.log('========================')
 }
