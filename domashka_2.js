@@ -4,7 +4,7 @@ console.log(`Chislo: ${x} v stepeni: ${y}`);
 
 let result = 1;
 for (let i = 0; i < y; i++)
-result = result * x;
+    result = result * x;
 return result
 }
 
