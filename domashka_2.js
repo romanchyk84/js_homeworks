@@ -10,4 +10,6 @@ return result
 
 console.log(pow(7, 2))
 
+console.log(pow(7, 3))
 
+console.log(pow(2, 10))
