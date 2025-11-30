@@ -9,7 +9,12 @@ return result
 }
 
 console.log(pow(7, 2))
-
+p();
 console.log(pow(7, 3))
-
+p();
 console.log(pow(2, 10))
+p();
+
+function p() {
+    console.log('========================')
+}
