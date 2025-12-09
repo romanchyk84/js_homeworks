@@ -10,11 +10,11 @@ function teorver(count) {
         let sluchainoeChislo = Math.floor(Math.random() * 1000);
 
         if (sluchainoeChislo % 2 === 0) {
-            parniyCount + 1;
+            parniyCount = parniyCount + 1;
 
         }
         else {
-            neparniyCount + 1;
+            neparniyCount= neparniyCount + 1;
         }
     }
 
@@ -28,4 +28,4 @@ function teorver(count) {
     console.log("Protsent neparnich = ", neparniyCountProtsent, "%");
 
 }
-teorver(10)
+teorver(25)
