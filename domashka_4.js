@@ -7,7 +7,7 @@ var services = {
     };
 
 console.log(services);
-services['Розбити скло'] = "60 грн";
+services['Розбити скло'] = "15 грн";
 
 console.log(services);
 
@@ -24,3 +24,19 @@ console.log(services);
 services['Стрижка волос в носу'] = "75.38 uah"
 console.log(price()) */
 
+services['Стрижка бороды'] = "5.34 UAH";
+minPrice = function () {
+    var min = Infinity;
+
+    for (var key in services) {
+        var value = services[key];
+        var number = parseFloat(value);
+        if (number < min) {
+            min = number
+        }
+    }
+    return min;
+}
+
+console.log(minPrice())
+console.log(services)
