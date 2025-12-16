@@ -33,4 +33,5 @@ console.log(services.price()); */
     }
     return summa;
 }
+services['Стрижка волос в носу'] = "10 uah"
 console.log(price())
