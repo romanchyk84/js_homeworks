@@ -7,24 +7,12 @@ var services = {
     };
 
 console.log(services);
-services['Розбити скло'] = "200 грн";
+services['Розбити скло'] = "60 грн";
 
 console.log(services);
 
-function price() {
+/* function price() {
     var summa = 0;
-
-/*     for ( var key in services) {
-        if (typeof services[key] === "string") {
-            var priceNumber = parseInt(services[key]);
-            summa = summa + priceNumber;
-        }
-        
-    }
-    return summa;
-}
-services['Борода'] = "60.50 грн";
-console.log(services.price()); */
 
     for (var key in services) {
         var value = services[key];
@@ -34,4 +22,5 @@ console.log(services.price()); */
     return summa;
 }
 services['Стрижка волос в носу'] = "75.38 uah"
-console.log(price())
+console.log(price()) */
+
