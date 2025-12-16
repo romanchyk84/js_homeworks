@@ -58,6 +58,6 @@ maxPrice = function () {
 
 }
 
-console.log(price());
-console.log(minPrice());
-console.log(maxPrice());
+console.log("Загальну вартість наданих послуг = ", price(), "грн");
+console.log("Мінімальна ціна = ", minPrice(), "грн");
+console.log("Максимальна ціна = ", maxPrice(), "грн");
