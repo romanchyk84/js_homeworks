@@ -7,8 +7,8 @@ var services = {
 
 console.log(services);
 
-services['Розбити скло'] = "15.25 грн";
-services['стаканчик коньяка'] = "221.50 UAH";
+services['Розбити скло'] = "200 грн";
+services['стаканчик коньяка'] = "201.50 UAH";
 
 
 console.log(services);
