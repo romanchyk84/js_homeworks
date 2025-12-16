@@ -28,10 +28,10 @@ console.log(services.price()); */
 
     for (var key in services) {
         var value = services[key];
-        var number = parseInt(value);
+        var number = parseFloat (value);
         summa = summa + number;
     }
     return summa;
 }
-services['Стрижка волос в носу'] = "10 uah"
+services['Стрижка волос в носу'] = "75.38 uah"
 console.log(price())
