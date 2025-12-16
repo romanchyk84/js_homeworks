@@ -8,10 +8,9 @@ var services = {
 
 console.log(services);
 
-services['Розбити скло'] = "15 грн";
-services['стаканчик коньяка'] = "221.54 UAH";
-services['Стрижка волос в носу'] = "75.38 uah";
-services['Стрижка бороды'] = "5.34 UAH";
+services['Розбити скло'] = "15.25 грн";
+services['стаканчик коньяка'] = "221.50 UAH";
+
 
 console.log(services);
 
@@ -20,7 +19,7 @@ function price() {
 
     for (var key in services) {
         var value = services[key];
-        var number = parseFloat (value);
+        var number = parseFloat(value);
         summa = summa + number;
     }
     return summa;
