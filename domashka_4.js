@@ -1,4 +1,3 @@
-// Here will be a fifth homework
 
 var services = {
     "стрижка": "60 грн",
