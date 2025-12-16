@@ -24,7 +24,7 @@ console.log(services);
 services['Стрижка волос в носу'] = "75.38 uah"
 console.log(price()) */
 
-services['Стрижка бороды'] = "5.34 UAH";
+/* services['Стрижка бороды'] = "5.34 UAH";
 minPrice = function () {
     var min = Infinity;
 
@@ -39,4 +39,24 @@ minPrice = function () {
 }
 
 console.log(minPrice())
-console.log(services)
+console.log(services) */
+
+
+maxPrice = function () {
+    var max = 0;
+
+    for (var key in services) {
+        var value = services[key];
+        var number = parseFloat(value);
+
+        if (number >= max){
+            max = number;
+
+        }
+        
+    }
+    return max;
+
+}
+services['стаканчик коньяка'] = "221.54 UAH"
+console.log(maxPrice());
