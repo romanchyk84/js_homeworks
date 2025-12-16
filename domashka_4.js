@@ -7,11 +7,15 @@ var services = {
     };
 
 console.log(services);
+
 services['Розбити скло'] = "15 грн";
+services['стаканчик коньяка'] = "221.54 UAH";
+services['Стрижка волос в носу'] = "75.38 uah";
+services['Стрижка бороды'] = "5.34 UAH";
 
 console.log(services);
 
-/* function price() {
+function price() {
     var summa = 0;
 
     for (var key in services) {
@@ -21,10 +25,8 @@ console.log(services);
     }
     return summa;
 }
-services['Стрижка волос в носу'] = "75.38 uah"
-console.log(price()) */
 
-/* services['Стрижка бороды'] = "5.34 UAH";
+
 minPrice = function () {
     var min = Infinity;
 
@@ -37,9 +39,6 @@ minPrice = function () {
     }
     return min;
 }
-
-console.log(minPrice())
-console.log(services) */
 
 
 maxPrice = function () {
@@ -58,5 +57,7 @@ maxPrice = function () {
     return max;
 
 }
-services['стаканчик коньяка'] = "221.54 UAH"
+
+console.log(price());
+console.log(minPrice());
 console.log(maxPrice());
