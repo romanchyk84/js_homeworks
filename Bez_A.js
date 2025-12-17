@@ -2,7 +2,7 @@
 
 const words = "Wonderful, Joyful, Happiness, Time, Task, Apple";
 
-var re = /[^A\W]{6,}/g;
+var re = /\b[^A\W]{6,}\b/gi;
 
 var x = words.match(re);
 
