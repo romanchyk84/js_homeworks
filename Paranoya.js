@@ -18,10 +18,12 @@ let arr = `[
     },
 ]`;
 
-console.log(typeof(arr));
+// console.log(typeof(arr));
 
 
 let re = /[\w._%+-]+@[\w.-]+\.([aA-zZ]){2,}(?<!\.ru)/gi;
+
+// let re = /[\w._%+-]+@(yahoo.com|gmail.com)/gi;
 
 newarr = arr.match(re);
 
