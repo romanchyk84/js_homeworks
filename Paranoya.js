@@ -1,6 +1,6 @@
 // U nas paranoya. Doveryaem adresam gmail i yahoo
 
-var arr = [
+let arr = `[
     {
         userName:"Test",
         lastName:"Test",
@@ -16,7 +16,9 @@ var arr = [
         lastName:"",
         email:"andrii@mail.ru" // Нам такі не підходять
     },
-];
+]`;
 
-let x = arr[0];
-console.log(x);
+console.log(typeof(arr));
+
+let normEmail = [];
+console.log(typeof(normEmail), normEmail);
