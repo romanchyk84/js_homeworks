@@ -21,9 +21,8 @@ let arr = `[
 console.log(typeof(arr));
 
 
-let re = /^[\w._%+-]+@[\w.-]+\.([aA-zZ]){2,}(?<!\.ru)$/gi;
+let re = /[\w._%+-]+@[\w.-]+\.([aA-zZ]){2,}(?<!\.ru)/gi;
 
 newarr = arr.match(re);
 
-
-console.log(newarr);
+console.log(typeof(newarr), newarr);
