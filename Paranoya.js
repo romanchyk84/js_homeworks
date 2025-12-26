@@ -20,5 +20,10 @@ let arr = `[
 
 console.log(typeof(arr));
 
-let normEmail = [];
-console.log(typeof(normEmail), normEmail);
+
+let re = /^[\w._%+-]+@[\w.-]+\.([aA-zZ]){2,}(?<!\.ru)$/gi;
+
+newarr = arr.match(re);
+
+
+console.log(newarr);
